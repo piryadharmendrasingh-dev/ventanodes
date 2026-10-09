@@ -1,0 +1,67 @@
+/* Venta Nodes Purple — palette inspired by the supplied banner */
+.dark {
+  --background: #010006;
+  --foreground: #f4edff;
+  --card: #12013a;
+  --card-foreground: #f4edff;
+  --popover: #0b0126;
+  --popover-foreground: #f4edff;
+  --muted: #210361;
+  --muted-foreground: #c7b6dc;
+  --primary: #3b049f;
+  --primary-foreground: #ffffff;
+  --secondary: #49188f;
+  --secondary-foreground: #ffffff;
+  --accent: #8b3dff;
+  --accent-foreground: #ffffff;
+  --border: #49188f;
+  --input: #24065f;
+  --ring: #d9b3f5;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --success: #8b5cf6;
+  --warning: #f59e0b;
+  --chart-1: #3b049f;
+  --chart-2: #7318d1;
+  --chart-3: #8b3dff;
+  --chart-4: #b56cff;
+  --chart-5: #d9b3f5;
+  --radius: 0.65rem;
+  --terminal-background: #010006;
+  --terminal-selection: #3b049f;
+  --terminal-selection-foreground: #ffffff;
+  --terminal-ansi-black: #010006;
+  --terminal-ansi-red: #ff4d6d;
+  --terminal-ansi-green: #65d98b;
+  --terminal-ansi-yellow: #ffd166;
+  --terminal-ansi-blue: #6d7dff;
+  --terminal-ansi-magenta: #a855f7;
+  --terminal-ansi-cyan: #55d6ff;
+  --terminal-ansi-white: #f4edff;
+  --terminal-ansi-bright-black: #24143b;
+  --terminal-ansi-bright-red: #ff6b86;
+  --terminal-ansi-bright-green: #8ff0aa;
+  --terminal-ansi-bright-yellow: #ffe39a;
+  --terminal-ansi-bright-blue: #9aa5ff;
+  --terminal-ansi-bright-magenta: #c084fc;
+  --terminal-ansi-bright-cyan: #8de7ff;
+  --terminal-ansi-bright-white: #ffffff;
+}
+body {
+  background:
+    radial-gradient(circle at 15% 10%, rgba(115,24,209,.18), transparent 30%),
+    radial-gradient(circle at 85% 20%, rgba(139,61,255,.14), transparent 28%),
+    linear-gradient(135deg, #010006 0%, #08001c 52%, #12013a 100%);
+}
+a { transition: color .18s ease, text-shadow .18s ease; }
+a:hover { color: #d9b3f5; text-shadow: 0 0 14px rgba(139,61,255,.45); }
+button, [role="button"] { transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+button:hover, [role="button"]:hover { box-shadow: 0 0 22px rgba(139,61,255,.18); }
+input, textarea, select { border-color: #49188f !important; background: rgba(18,1,58,.72) !important; }
+input:focus, textarea:focus, select:focus { border-color: #8b3dff !important; box-shadow: 0 0 0 2px rgba(139,61,255,.18) !important; }
+[class*="card"], [class*="Card"] { border-color: rgba(73,24,143,.55); }
+* { scrollbar-color: #49188f #010006; scrollbar-width: thin; }
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-track { background: #010006; }
+*::-webkit-scrollbar-thumb { background: linear-gradient(#3b049f, #8b3dff); border-radius: 999px; }
+::selection { background: #3b049f; color: #ffffff; }
